@@ -20,8 +20,8 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/AndroidIl2cppPatchDemo/Script/VersionSettor.cs" />
-      <option value="$PROJECT_DIR$/Assets/AndroidIl2cppPatchDemo/Editor/AndroidBuilder.cs" />
       <option value="$PROJECT_DIR$/Assets/LoadSence.cs" />
+      <option value="$PROJECT_DIR$/Assets/AndroidIl2cppPatchDemo/Editor/AndroidBuilder.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2CBjXXrmFcS5WzbV6RzgBM0Q7BR" />
@@ -88,6 +88,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

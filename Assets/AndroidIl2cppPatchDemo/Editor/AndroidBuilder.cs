@@ -126,7 +126,7 @@ public class AndroidBuilder : MonoBehaviour {
 
         //export project
         string error_msg = string.Empty;
-        string[] levels = new string[] { "Assets/AndroidIl2cppPatchDemo/Scene/0.unity" };
+        string[] levels = new string[] {"Assets/AndroidIl2cppPatchDemo/Scene/Default.unity", "Assets/AndroidIl2cppPatchDemo/Scene/0.unity" };
         BuildOptions options = BuildOptions.Development;
         EditorUserBuildSettings.exportAsGoogleAndroidProject = true;
         if (Directory.Exists(ANDROID_EXPORT_PATH)) { FileUtil.DeleteFileOrDirectory(ANDROID_EXPORT_PATH);}
@@ -252,7 +252,7 @@ import io.github.noodle1983.Boostrap;");
         string[][] soPatchFile =
         {
                 // path_in_android_project, filename inside zip, zip file anme
-                new string[3]{ "/"+ SO_DIR_NAME + "/armeabi-v7a/libil2cpp.so", "libil2cpp.so.new", "lib_armeabi-v7a_libil2cpp.so.zip" },            
+                //new string[3]{ "/"+ SO_DIR_NAME + "/armeabi-v7a/libil2cpp.so", "libil2cpp.so.new", "lib_armeabi-v7a_libil2cpp.so.zip" },            
                 new string[3]{ "/"+ SO_DIR_NAME + "/arm64-v8a/libil2cpp.so", "libil2cpp.so.new", "lib_arm64-v8a_libil2cpp.so.zip" },
         };
 
