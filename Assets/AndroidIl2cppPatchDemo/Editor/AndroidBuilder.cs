@@ -129,7 +129,7 @@ public class AndroidBuilder : MonoBehaviour {
 
         //export project
         string error_msg = string.Empty;
-        string[] levels = new string[] { "Assets/AndroidIl2cppPatchDemo/Scene/0.unity" };
+        string[] levels = new string[] { "Assets/AndroidIl2cppPatchDemo/Scene/Default.unity","Assets/AndroidIl2cppPatchDemo/Scene/0.unity" };
         BuildOptions options = BuildOptions.Development;
         EditorUserBuildSettings.exportAsGoogleAndroidProject = true;
         if (Directory.Exists(ANDROID_EXPORT_PATH)) { FileUtil.DeleteFileOrDirectory(ANDROID_EXPORT_PATH);}
