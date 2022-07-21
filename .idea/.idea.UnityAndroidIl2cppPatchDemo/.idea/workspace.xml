@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8026f7cf-6e42-4186-908f-eb8899efb31a" name="默认变更列表" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/AndroidIl2cppPatchDemo/Editor/AndroidBuilder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AndroidIl2cppPatchDemo/Editor/AndroidBuilder.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AndroidIl2cppPatchDemo/Scene/0.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AndroidIl2cppPatchDemo/Scene/0.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,11 +15,13 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E73FFDB6-00AC-4A4D-A9CF-0C43B46AAB41/3a/7c912856/FileUtil.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LoadSence.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/AndroidIl2cppPatchDemo/Script/VersionSettor.cs" />
       <option value="$PROJECT_DIR$/Assets/AndroidIl2cppPatchDemo/Editor/AndroidBuilder.cs" />
+      <option value="$PROJECT_DIR$/Assets/LoadSence.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2CBjXXrmFcS5WzbV6RzgBM0Q7BR" />
@@ -68,7 +69,7 @@
       <updated>1658282912492</updated>
       <workItem from="1658282920667" duration="12047000" />
       <workItem from="1658310665847" duration="9315000" />
-      <workItem from="1658374378762" duration="5169000" />
+      <workItem from="1658374378762" duration="5582000" />
     </task>
     <servers />
   </component>
@@ -77,6 +78,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
