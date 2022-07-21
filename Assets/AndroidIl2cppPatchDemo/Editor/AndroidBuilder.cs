@@ -122,12 +122,12 @@ public class AndroidBuilder : MonoBehaviour {
         EditorUserBuildSettings.androidBuildSystem = AndroidBuildSystem.Gradle;
         PlayerSettings.SetScriptingBackend(BuildTargetGroup.Android, ScriptingImplementation.IL2CPP);
         PlayerSettings.stripEngineCode = false;
-        PlayerSettings.Android.targetArchitectures = AndroidArchitecture.ARMv7 | AndroidArchitecture.ARM64;
+        PlayerSettings.Android.targetArchitectures = AndroidArchitecture.ARM64;
 
         //export project
         string error_msg = string.Empty;
         string[] levels = new string[] { "Assets/AndroidIl2cppPatchDemo/Scene/0.unity" };
-        BuildOptions options = BuildOptions.None;
+        BuildOptions options = BuildOptions.Development;
         EditorUserBuildSettings.exportAsGoogleAndroidProject = true;
         if (Directory.Exists(ANDROID_EXPORT_PATH)) { FileUtil.DeleteFileOrDirectory(ANDROID_EXPORT_PATH);}
         Directory.CreateDirectory(ANDROID_EXPORT_PATH);
