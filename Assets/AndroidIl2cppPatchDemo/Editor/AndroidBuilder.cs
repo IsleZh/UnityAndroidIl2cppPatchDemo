@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class AndroidBuilder : MonoBehaviour {
 
@@ -120,6 +121,7 @@ public class AndroidBuilder : MonoBehaviour {
         PlayerSettings.companyName = "noodle1983";
         PlayerSettings.productName = "UnityAndroidIl2cppPatchDemo";
         EditorUserBuildSettings.androidBuildSystem = AndroidBuildSystem.Gradle;
+        PlayerSettings.SetGraphicsAPIs(BuildTarget.Android,new []{GraphicsDeviceType.Vulkan});
         PlayerSettings.SetScriptingBackend(BuildTargetGroup.Android, ScriptingImplementation.IL2CPP);
         PlayerSettings.stripEngineCode = false;
         PlayerSettings.Android.targetArchitectures = AndroidArchitecture.ARM64;
