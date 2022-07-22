@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.Profiling;
 #endif
 
-namespace Assets.UWA
+namespace UWAGOT
 {
     public class TypeHolder
     {
@@ -66,6 +66,7 @@ namespace Assets.UWA
 
 #if UNITY_5_3_OR_NEWER
             Check(SystemInfo.processorFrequency);
+            Check(SystemInfo.graphicsMultiThreaded);
 #endif
 
 #if UNITY_4_6 || UNITY_4_7 || UNITY_5 
@@ -87,6 +88,7 @@ namespace Assets.UWA
             Check(recorder2.sampleBlockCount);
             Check(recorder2.elapsedNanoseconds);
 #endif
+            //UWAEngine.Set(null);
             Profiler.BeginSample("", new Object());
             Profiler.BeginSample("");
             Profiler.EndSample();
