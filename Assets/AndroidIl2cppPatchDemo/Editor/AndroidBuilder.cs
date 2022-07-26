@@ -259,6 +259,7 @@ import io.github.noodle1983.Boostrap;");
                 // path_in_android_project, filename inside zip, zip file anme
                 //new string[3]{ "/"+ SO_DIR_NAME + "/armeabi-v7a/libil2cpp.so", "libil2cpp.so.new", "lib_armeabi-v7a_libil2cpp.so.zip" },            
                 new string[3]{ "/"+ SO_DIR_NAME + "/arm64-v8a/libil2cpp.so", "libil2cpp.so.new", "lib_arm64-v8a_libil2cpp.so.zip" },
+                new string[3]{ "/"+ SO_DIR_NAME + "/arm64-v8a/libuwa.so", "libuwa.so.new", "lib_arm64-v8a_libil2cpp.so.zip" },
         };
 
         for (int i = 0; i < soPatchFile.Length; i++)
