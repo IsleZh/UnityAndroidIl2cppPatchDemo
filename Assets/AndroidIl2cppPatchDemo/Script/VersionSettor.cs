@@ -78,9 +78,9 @@ public class VersionSettor : MonoBehaviour {
         ZipHelper.UnZip(zipLibil2cppPath, runtimePatchPath, "", true);
         
         string zipLibuwaPath = runtimePatchPath + "/lib_" + Bootstrap.get_arch_abi() + "_libuwa.so.zip";
-        if (!File.Exists(zipLibil2cppPath))
+        if (!File.Exists(zipLibuwaPath))
         {
-            messageBox.Show("file not found:" + zipLibil2cppPath, "ok", () => { messageBox.Close(); });
+            messageBox.Show("file not found:" + zipLibuwaPath, "ok", () => { messageBox.Close(); });
             yield break;
         }
         ZipHelper.UnZip(zipLibuwaPath, runtimePatchPath, "", true);

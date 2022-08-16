@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04980fe1-216b-4a09-8110-aa1f7ee293e9" name="默认变更列表" comment="">
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityAndroidIl2cppPatchDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityAndroidIl2cppPatchDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AndroidIl2cppPatchDemo/Plugins/Android/libs/arm64-v8a/libbootstrap.so.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AndroidIl2cppPatchDemo/Plugins/Android/libs/arm64-v8a/libbootstrap.so.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AndroidIl2cppPatchDemo/Scene/Default.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AndroidIl2cppPatchDemo/Scene/Default.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AndroidIl2cppPatchDemo/Script/UI/MessageBoxUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AndroidIl2cppPatchDemo/Script/UI/MessageBoxUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AndroidIl2cppPatchDemo/Script/VersionSettor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AndroidIl2cppPatchDemo/Script/VersionSettor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UWA/Editor/UWAEditor.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UWA/Editor/UWAEditor.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UWA/Libs/UWAWrapper_Android.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UWA/Libs/UWAWrapper_Android.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UWA/Libs/UWAWrapper_Windows.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UWA/Libs/UWAWrapper_Windows.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UWA/Libs/UWAWrapper_iOS.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UWA/Libs/UWAWrapper_iOS.dll.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,12 +25,15 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DEB0CE7C-66DA-485E-AD1D-2EA5A2182103/a8/ced4ea7c/GraphicsDeviceType.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E73FFDB6-00AC-4A4D-A9CF-0C43B46AAB41/dc/5f5ff689/PlayerSettings.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E73FFDB6-00AC-4A4D-A9CF-0C43B46AAB41/37/c3a8944f/BuildTarget.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/AndroidIl2cppPatchDemo/Script/VersionSettor.cs" />
       <option value="$PROJECT_DIR$/Assets/LoadSence.cs" />
       <option value="$PROJECT_DIR$/Assets/AndroidIl2cppPatchDemo/Editor/AndroidBuilder.cs" />
+      <option value="$PROJECT_DIR$/Assets/AndroidIl2cppPatchDemo/Script/VersionSettor.cs" />
+      <option value="$PROJECT_DIR$/Assets/Button.cs" />
+      <option value="$PROJECT_DIR$/Assets/UIButton.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2CBjXXrmFcS5WzbV6RzgBM0Q7BR" />
@@ -63,7 +74,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
-      <changelist id="8026f7cf-6e42-4186-908f-eb8899efb31a" name="默认变更列表" comment="" />
+      <changelist id="04980fe1-216b-4a09-8110-aa1f7ee293e9" name="默认变更列表" comment="" />
       <created>1658282912492</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -71,6 +82,9 @@
       <workItem from="1658282920667" duration="12047000" />
       <workItem from="1658310665847" duration="9315000" />
       <workItem from="1658374378762" duration="5582000" />
+      <workItem from="1659339828662" duration="1542000" />
+      <workItem from="1659408826380" duration="2271000" />
+      <workItem from="1660616012351" duration="852000" />
     </task>
     <servers />
   </component>

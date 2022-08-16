@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class MessageBoxUI : MonoBehaviour 
 {
 	public Text message;
-	public Button button;
+	public UIButton uiButton;
 	public Text buttonText;
     
     public delegate void OnClickDelegate();
