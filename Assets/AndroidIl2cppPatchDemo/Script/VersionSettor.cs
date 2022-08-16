@@ -77,13 +77,13 @@ public class VersionSettor : MonoBehaviour {
         }
         ZipHelper.UnZip(zipLibil2cppPath, runtimePatchPath, "", true);
         
-        /*string zipLibuwaPath = runtimePatchPath + "/lib_" + Bootstrap.get_arch_abi() + "_libuwa.so.zip";
+        string zipLibuwaPath = runtimePatchPath + "/lib_" + Bootstrap.get_arch_abi() + "_libuwa.so.zip";
         if (!File.Exists(zipLibil2cppPath))
         {
             messageBox.Show("file not found:" + zipLibil2cppPath, "ok", () => { messageBox.Close(); });
             yield break;
         }
-        ZipHelper.UnZip(zipLibuwaPath, runtimePatchPath, "", true);*/
+        ZipHelper.UnZip(zipLibuwaPath, runtimePatchPath, "", true);
 
         //4. tell libboostrap.so to use the right patch after reboot
 
